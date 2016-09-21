@@ -17,7 +17,7 @@ class User extends Controller
     }
 
     public function spend(){
-        return view('user.spend');
+        return view('user.pages.vkontakte.spend');
     }
 
     public function work(){

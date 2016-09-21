@@ -1,4 +1,21 @@
-/*.top-menu li {*/
-    /*color: #ffffff;*/
-    /*text-shadow: 1px 1px 1px #f5ff2e;*/
-/*}*/
+.nakrutka-btn {
+    box-shadow: 3px 3px 1px white;
+    border: none;
+    outline: none;
+
+}
+
+.animated {
+    transition-property: background-color;
+    transition-duration: 3s;
+}
+
+
+
+.nakrutka-btn:active{
+}
+
+.nakrutka-btn p{
+    color: #000000;
+    text-shadow: 0px 0px 1px blue;
+}
