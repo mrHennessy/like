@@ -10,7 +10,6 @@
 
 <!--common script for all pages-->
 <script src="{{asset('user/assets/js/common-scripts.js')}}"></script>
-
+<script src="{{asset('user/assets/js/jquery.pjax.js')}}"></script>
 <script type="text/javascript" src="{{asset('user/assets/js/gritter/js/jquery.gritter.js')}}"></script>
 <script type="text/javascript" src="{{asset('user/assets/js/gritter-conf.js')}}"></script>
-123

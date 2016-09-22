@@ -32,12 +32,13 @@
     <link href="{{asset('user/assets/css/style-responsive.css')}}" rel="stylesheet">
 
     <script src="{{asset('user/assets/js/chart-master/Chart.js')}}"></script>
-    
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
   <body>
@@ -85,7 +86,10 @@
             console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
         }
     </script>
-  
+
+  <script>
+      $(document).pjax('#nav-link a', '.inload', {fragment: '.reloading' })
+  </script>
 
   </body>
 </html>

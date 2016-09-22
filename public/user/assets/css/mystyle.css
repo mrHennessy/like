@@ -10,12 +10,14 @@
     transition-duration: 3s;
 }
 
-
-
 .nakrutka-btn:active{
 }
 
 .nakrutka-btn p{
     color: #000000;
     text-shadow: 0px 0px 1px blue;
+}
+
+.progress{
+    margin-bottom: 0px;
 }

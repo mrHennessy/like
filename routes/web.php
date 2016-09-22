@@ -31,6 +31,38 @@ Route::group(['prefix' => 'vkontakte'], function() {
         'uses' => 'User@work',
         'as' => 'WorkUser'
     ]);
+
+    Route::group(['prefix' => 'form'], function() {
+        Route::get('add_likes', [
+            'uses' => 'ApiVK@addTaskLike',
+            'as' => 'AddTaskLike'
+        ]);
+
+        Route::get('add_follows', [
+            'uses' => 'ApiVK@addTaskFollow',
+            'as' => 'AddTaskFollow'
+        ]);
+
+        Route::get('add_friends', [
+            'uses' => 'ApiVK@addTaskFriend',
+            'as' => 'AddTaskFriend'
+        ]);
+
+        Route::get('add_interviews', [
+            'uses' => 'ApiVK@addTaskInterview',
+            'as' => 'AddTaskInterview'
+        ]);
+
+        Route::get('add_usersingroups', [
+            'uses' => 'ApiVK@addTaskUserGroup',
+            'as' => 'AddTaskLike'
+        ]);
+
+        Route::get('add_socials', [
+            'uses' => 'ApiVK@addTaskSocial',
+            'as' => 'AddTaskSocial'
+        ]);
+    });
 });
 
 Route::get('partner', [
