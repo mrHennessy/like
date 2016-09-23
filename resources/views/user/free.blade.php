@@ -1,5 +1,5 @@
 sadasdasd
-<section id="main-content" class="reloading" >
+<section id="main-content" class="inload reloading" >
     <section class="wrapper site-min-height">
         <h3><i class="fa fa-angle-right"></i> Blank Page</h3>
         <div class="row mt ">

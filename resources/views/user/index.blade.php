@@ -86,7 +86,12 @@
     </script>
 
   <script>
-      $(document).pjax('.nav-link a', '.inload', {fragment: '.reloading'})
+      $('#sidebar').on('click', 'a' ,function(){
+          $(document).pjax('#sidebar a', '.inload', {fragment: '.reloading'})
+      });
+  </script>
+  <script>
+
   </script>
 
   </body>
