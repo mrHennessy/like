@@ -3,6 +3,7 @@
 @section('content')
 
 <section id="container" >
+
 <!-- **********************************************************************************************************************************************************
     TOP BAR CONTENT & NOTIFICATIONS
 *********************************************************************************************************************************************************** -->
@@ -24,65 +25,112 @@
 *********************************************************************************************************************************************************** -->
 
     <!--main content start-->
-    <section id="main-content" class="reloading">
+    <section id="main-content" class="inload reloading">
         <section class="wrapper site-min-height">
+
             <div class="row">
-                <div class="col-md-12">
-                    <div class="row mt">
-                        <div class="col-md-2 col-md-offset-2">
-                                <button class="btn-clear-g nakrutka-btn animated" >
-                                    <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                    <p>Накрутка лайков</p>
-                                </button>
+                <div class="col-sm-12 mt">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#addLike" data-toggle="tab">Накрутка лайков</a></li>
+                        <li><a href="#addRepost" data-toggle="tab">Накрутка репостов</a></li>
+                        <li><a href="#addFriends" data-toggle="tab">Накрутка друзей</a></li>
+                        <li><a href="#addUserGroup" data-toggle="tab">Накрутка участников группы</a></li>
+                        <li><a href="#addSocial" data-toggle="tab">Накрутка участников встречи</a></li>
+                        <li><a href="#addInterview" data-toggle="tab">Накрутка опросов</a></li>
+                        <li><a href="#addComments" data-toggle="tab">Накрутка комментарией</a></li>
+                    </ul>
+
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane fade in active" id="addLike">
+                            <div class="row mt">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    @include('user.forms.addLike')
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-2">
-                            <button class="btn-clear-g nakrutka-btn animated" >
-                                <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                <p>Накрутка лайков</p>
-                            </button>
+                        <div class="tab-pane fade" id="addRepost">
+                            <div class="row mt">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    @include('user.forms.addFollow')
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-2">
-                            <button class="btn-clear-g nakrutka-btn animated" >
-                                <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                <p>Накрутка лайков</p>
-                            </button>
+                        <div class="tab-pane fade" id="addFriends">
+                            <div class="row mt">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    @include('user.forms.addFriend')
+                                </div>
+                            </div>
                         </div>
-                        <div class="col-md-2">
-                            <button class="btn-clear-g nakrutka-btn animated" >
-                                <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                <p>Накрутка лайков</p>
-                            </button>
+                        <div class="tab-pane fade" id="addUserGroup">
+                            <div class="row mt">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    @include('user.forms.addUserGroup')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="addSocial">
+                            <div class="row mt">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    @include('user.forms.addSocial')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="addInterview">
+                            <div class="row mt">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    @include('user.forms.addInterview')
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="addComments">
+                            <div class="row mt">
+                                <div class="col-sm-10 col-sm-offset-1">
+                                    @include('user.forms.addLike')
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="row mt">
-                        <div class="col-md-2 col-md-offset-2">
-                            <button class="btn-clear-g nakrutka-btn animated" >
-                                <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                <p>Накрутка лайков</p>
-                            </button>
-                        </div>
-                        <div class="col-md-2">
-                            <button class="btn-clear-g nakrutka-btn animated" >
-                                <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                <p>Накрутка лайков</p>
-                            </button>
-                        </div>
-                        <div class="col-md-2">
-                            <button class="btn-clear-g nakrutka-btn animated" >
-                                <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                <p>Накрутка лайков</p>
-                            </button>
-                        </div>
-                        <div class="col-md-2">
-                            <button class="btn-clear-g nakrutka-btn animated" >
-                                <img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" alt="Накрутка лайков" width="64" height="64"/>
-                                <p>Накрутка лайков</p>
-                            </button>
-                        </div>
-                    </div>
+                    <br/><br/><br/><br/><br/>
+                    <form class="form-horizontal style-form" method="get">
+<!--                        <div class="refreshfield">-->
+<!---->
+<!--                        </div>-->
+
+
+
+
+
+
+<!--                        <h3 class="mt col-sm-offset-1">-->
+<!--                            <label class="control-label">Таргетинг</label>-->
+<!--                        </h3>-->
+<!---->
+<!--                        <h4 class="mt col-sm-offset-1">-->
+<!--                            <label class="control-label">Пол</label>-->
+<!--                        </h4>-->
+<!---->
+<!--                        <div class="radio col-sm-offset-1">-->
+<!--                            <label>-->
+<!--                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="any" checked>-->
+<!--                                Любой-->
+<!--                            </label>&nbsp;&nbsp;-->
+<!--                            <label>-->
+<!--                                <input type="radio" name="optionsRadios" id="optionsRadios1" value="man">-->
+<!--                                Мужской-->
+<!--                            </label>-->
+<!--                            <label>&nbsp;&nbsp;-->
+<!--                                <input type="radio" name="optionsRadios" id="optionsRadios2" value="woman">-->
+<!--                                Женский-->
+<!--                            </label>-->
+<!--                        </div>-->
+                    </form>
                 </div>
             </div>
 
+<!--            Table Tasks-->
             <div class="row">
                 <div class="col-md-12">
                     <div class="row mt">
@@ -159,7 +207,11 @@
                     </div><!-- /row -->
                 </div>
             </div>
+<!--            End Table Tasks-->
+
+
         </section><! --/wrapper -->
+
     </section><!-- /MAIN CONTENT -->
 
     <!--main content end-->
@@ -167,5 +219,93 @@
     @include('user.include.footer')
     <!--footer end-->
 </section>
+<!--    Script refresh -->
+
+<!--script for this page-->
+
+@stop
+
+@section('scriptpage')
+<script src="{{asset('user/assets/js/modernizr.custom.63321.js')}}"></script>
+<script src="{{asset('user/assets/js/jquery.dropdown.js')}}"></script>
+
+<script src="{{asset('user/assets/js/bootstrap-switch.js')}}"></script>
+<script src="{{asset('user/assets/js/jquery.tagsinput.js')}}"></script>
+<script src="{{asset('user/assets/js/form-component.js')}}"></script>
+
+
+<script type="text/javascript">
+
+    $( function() {
+
+        $( '#cd-dropdown' ).dropdown( {
+            gutter : 5,
+            delay : 100,
+            random : false
+        } );
+
+    });
+
+</script>
+
+<script>
+    $(document).ready(function() {
+        $("#slider").slider({
+            range: "min",
+            animate: true,
+            value:1,
+            min: 1,
+            max: 10,
+            step: 1,
+            slide: function(event, ui) {
+                update(1,ui.value); //changed
+            }
+        });
+
+        $("#slider2").slider({
+            range: "min",
+            animate: true,
+            value:5,
+            min: 5,
+            max: 300,
+            step: 5,
+            slide: function(event, ui) {
+                update(2,ui.value); //changed
+            }
+        });
+
+        //Added, set initial value.
+        $("#amount").val(0);
+        $("#duration").val(0);
+        $("#amount-label").text(0);
+        $("#duration-label").text(0);
+
+        update();
+    });
+
+    //changed. now with parameter
+    function update(slider,val) {
+        //changed. Now, directly take value from ui.value. if not set (initial, will use current value.)
+        var $amount = slider == 1?val:$("#amount").val();
+        var $duration = slider == 2?val:$("#duration").val();
+
+        /* commented
+         $amount = $( "#slider" ).slider( "value" );
+         $duration = $( "#slider2" ).slider( "value" );
+         */
+
+        $total = "" + ($amount * $duration);
+        $( "#amount" ).val($amount);
+        $( "#amount-label" ).text($amount);
+        $( "#duration" ).val($duration);
+        $( "#duration-label" ).text($duration);
+        $( "#total" ).val($total);
+        $( "#total-label" ).text($total);
+
+        $('#slider a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+        $('#slider2 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$duration+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+    }
+
+</script>
 
 @stop

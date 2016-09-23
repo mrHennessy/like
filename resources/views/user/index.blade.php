@@ -18,39 +18,41 @@
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/lineicons/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mystyle.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/font-awesome.css')}}">
+
       <!--add big pack fonts ico-->
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-codes.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-embedded.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/animation.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-ie7.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-codes.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/styleSelect.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/stylePrice.css')}}">
       <!--end big pack fonts ico-->
 
       <!-- Custom styles for this template -->
     <link href="{{asset('user/assets/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('user/assets/css/style-responsive.css')}}" rel="stylesheet">
 
-    <script src="{{asset('user/assets/js/chart-master/Chart.js')}}"></script>
+
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
   </head>
 
   <body>
 
   @yield('content')
 
-    @include('user.include.scripts')
 
-    <!--script for this page-->
-    <script src="{{asset('user/assets/js/sparkline-chart.js')}}"></script>
-	<script src="{{asset('user/assets/js/zabuto_calendar.js')}}"></script>
+  @include('user.include.scripts')
 
+  @yield('scriptpage')
+
+<!--  <script>-->
+<!--      $(document).pjax('#nav-link a', '.inload', {fragment: '.reloading'})-->
+<!--  </script>-->
 	
 	<script type="application/javascript">
         $(document).ready(function () {
@@ -87,9 +89,7 @@
         }
     </script>
 
-  <script>
-      $(document).pjax('#nav-link a', '.inload', {fragment: '.reloading' })
-  </script>
+
 
   </body>
 </html>

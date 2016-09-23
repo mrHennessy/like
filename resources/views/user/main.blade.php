@@ -20,12 +20,11 @@ TOP BAR CONTENT & NOTIFICATIONS
     MAIN CONTENT
     *********************************************************************************************************************************************************** -->
     <!--main content start-->
+
     <section id="main-content" class="inload reloading">
         <section class="wrapper">
-
             <div class="row">
                 <div class="col-lg-9 main-chart">
-
                     <div class="row mtbox">
                         <div class="col-md-3 col-sm-3  col-xs-6 box0">
                             <a href="{{ route('SpendUser')}}">
@@ -439,4 +438,5 @@ TOP BAR CONTENT & NOTIFICATIONS
     @include('user.include.footer')
     <!--footer end-->
 </section>
+
 @stop
