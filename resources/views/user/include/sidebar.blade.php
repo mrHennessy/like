@@ -11,14 +11,14 @@
             <h5 class="centered"><a href="{{ route('StoreUser')}}"><button type="button" class="btn btn-theme04"><i class="fa fa-heart"></i> Купить лайки</button></h5></a>
             <hr/>
 
-            <li id="nav-link">
+            <li class="nav-link">
                 <a class="active" href="{{ route('PersonalBoard')}}">
                     <i class="icon-user"></i>
                     <span>Мой кабинет</span>
                 </a>
             </li>
 
-            <li class="mt" id="nav-link">
+            <li class="mt" class="nav-link">
                 <a href="{{ route('UserIndexPage')}}">
                     <i class="icon-globe"></i>
                     <span>Главная</span>
@@ -31,38 +31,38 @@
                     <span></i>Вконтакте</span>
                 </a>
                 <ul class="sub">
-                    <li id="nav-link"><a  href="{{ route('SpendUser')}}">Включить накрутку</a></li>
-                    <li id="nav-link"><a  href="{{ route('WorkUser')}}">Заработать лайки</a></li>
+                    <li class="nav-link"><a  href="{{ route('SpendUser')}}">Включить накрутку</a></li>
+                    <li class="nav-link"><a  href="{{ route('WorkUser')}}">Заработать лайки</a></li>
                 </ul>
             </li>
 
-            <li id="nav-link">
+            <li class="nav-link">
                 <a href="{{ route('PartnerUser')}}">
                     <i class="icon-users"></i>
                     <span>Партнёрская программа</span>
                 </a>
             </li>
-            <li id="nav-link">
+            <li class="nav-link">
                 <a href="{{ route('FeedbackUser')}}">
                     <i class="icon-reply"></i>
                     <span>Обратная связь</span>
                 </a>
             </li>
 
-            <li id="nav-link">
+            <li class="nav-link">
                 <a href="{{ route('StoreUser')}}">
                     <i class="icon-shopping-bag"></i>
                     <span>Магазин</span>
                 </a>
             </li>
 
-            <li id="nav-link">
+            <li class="nav-link">
                 <a href="{{ route('FreeUser')}}">
                     <i class="icon-diamond"></i>
                     <span>Халява</span>
                 </a>
             </li>
-            <li id="nav-link">
+            <li class="nav-link">
                 <a href="{{ route('UserIndexPage')}}">
                     <i class="icon-diamond"></i>
                     <span>Халява</span>

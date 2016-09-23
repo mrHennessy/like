@@ -49,10 +49,6 @@
   @include('user.include.scripts')
 
   @yield('scriptpage')
-
-<!--  <script>-->
-<!--      $(document).pjax('#nav-link a', '.inload', {fragment: '.reloading'})-->
-<!--  </script>-->
 	
 	<script type="application/javascript">
         $(document).ready(function () {
@@ -89,7 +85,9 @@
         }
     </script>
 
-
+  <script>
+      $(document).pjax('.nav-link a', '.inload', {fragment: '.reloading'})
+  </script>
 
   </body>
 </html>
