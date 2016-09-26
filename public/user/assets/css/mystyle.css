@@ -39,3 +39,10 @@
 .my-mt{
     margin-top: 13px;
 }
+
+ul.sidebar-menu li a.active {
+    background-color: #338cc8;
+    border-radius: 10px 0px 0px 0px;
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}

@@ -321,7 +321,7 @@ ul.sidebar-menu li ul.sub li a {
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
     transition: all 0.3s ease;
-    color: #aeb2b7;
+    color: #ffffff;
 }
 
 ul.sidebar-menu li ul.sub li a:hover {
@@ -355,7 +355,7 @@ ul.sidebar-menu li a span{
 }
 
 ul.sidebar-menu li a{
-    color: #bacee7;
+    color: #cce0f9;
     text-decoration: none;
     display: block;
     padding: 15px 0 15px 10px;
@@ -369,16 +369,16 @@ ul.sidebar-menu li a{
 }
 
 ul.sidebar-menu li a.active, ul.sidebar-menu li a:hover, ul.sidebar-menu li a:focus {
-    background: #52b4ce;
+    background: rgba(40, 104, 231, 0.81);
     color: #ffffff;
     text-shadow: 0px 1px 2px black;
     display: block;
-
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease;
+    box-shadow: 4px 6px 0px #6ab9ff;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
 
 

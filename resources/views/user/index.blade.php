@@ -16,7 +16,6 @@
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/zabuto_calendar.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/js/gritter/css/jquery.gritter.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/lineicons/style.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mystyle.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/font-awesome.css')}}">
 
     <!--add big pack fonts ico-->
@@ -31,6 +30,7 @@
     <!-- Custom styles for this template -->
     <link href="{{asset('user/assets/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('user/assets/css/style-responsive.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mystyle.css')}}">
 
 
 
@@ -62,10 +62,7 @@
 
         </section>
 
-    <!--     pjax  -->
-        <script>
-            $(document).pjax('#sidebar a, .box0 a', '.reloading', {fragment: '.reloading'});
-        </script>
+
 
     <!--  scroll  -->
         <script>
@@ -163,6 +160,12 @@
                 console.log('nav ' + nav + ' to: ' + to.month + '/' + to.year);
             }
         </script>
+
+    <!--     pjax  -->
+        <script>
+            $(document).pjax('#sidebar a, .box0 a', '.reloading', {fragment: '.reloading'});
+        </script>
+
 
     </body>
 </html>
