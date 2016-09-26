@@ -17,19 +17,22 @@
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/js/gritter/css/jquery.gritter.css')}}" />
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/lineicons/style.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/font-awesome.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/themify-icons.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/web-hosting-glyphs.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/to-do.css')}}">
 
     <!--add big pack fonts ico-->
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-codes.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-ie7.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-codes.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/styleSelect.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/stylePrice.css')}}">
     <!--end big pack fonts ico-->
 
     <!-- Custom styles for this template -->
-    <link href="{{asset('user/assets/css/style.css')}}" rel="stylesheet">
     <link href="{{asset('user/assets/css/style-responsive.css')}}" rel="stylesheet">
+    <link href="{{asset('user/assets/css/style.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/styleSelect.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mystyle.css')}}">
 
 
@@ -62,7 +65,16 @@
 
         </section>
 
+    <!--dropdown-->
+        <script type="text/javascript">
 
+            $( function() {
+
+                $( '#cd-dropdown' ).dropdown();
+
+            });
+
+        </script>
 
     <!--  scroll  -->
         <script>
