@@ -7,12 +7,9 @@
 <script src="{{asset('user/assets/js/jquery.nicescroll.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.sparkline.js')}}"></script>
 <!---->
-<!---->
-<!---->
 <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.min.js"></script>
 <!---->
 <!--<!--common script for all pages-->-->
-<script src="{{asset('user/assets/js/common-scripts.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.pjax.js')}}"></script>
 <script src="{{asset('user/assets/js/gritter/js/jquery.gritter.js')}}"></script>
 <script src="{{asset('user/assets/js/gritter-conf.js')}}"></script>
@@ -25,3 +22,5 @@
 
 <script src="{{asset('user/assets/js/modernizr.custom.63321.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.dropdown.js')}}"></script>
+
+<script src="{{asset('user/assets/js/common-scripts.js')}}"></script>

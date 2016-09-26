@@ -6,7 +6,7 @@
 
         <section class="wrapper site-min-height">
 
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row mt">
                     <div class="col-sm-12 select-work">
                         <div class="fleft">

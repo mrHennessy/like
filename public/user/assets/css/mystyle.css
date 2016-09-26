@@ -64,7 +64,7 @@ ul.sidebar-menu li a.active {
 .work-center {
     z-index: 0;
     min-height: 500px;
-    background-color: #dadada;
+    background-color: #e7e7e7;
     box-shadow: 0px 0px 8px black;
 }
 
@@ -91,9 +91,21 @@ ul.sidebar-menu li a.active {
 
 .work-like .btn{
     padding: 1px 15px;
+    margin-bottom: 5px;
 }
 
 .prise{
     font-size: 20px;
     color: #6677ff;
+}
+
+ul.sidebar-menu .sub-menu .sub a.active{
+    background-color: transparent;
+}
+
+ul.sidebar-menu .sub-menu .sub a:active,
+ul.sidebar-menu .sub-menu .sub a:hover,
+ul.sidebar-menu .sub-menu .sub a:focus{
+    box-shadow: 0px 0px 0px black;
+    text-decoration: underline;
 }

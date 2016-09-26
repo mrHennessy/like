@@ -10,30 +10,30 @@
     <title>[ Liker.com ]</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="{{asset('user/assets/css/bootstrap.css')}}" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/bootstrap.css')}}" />
     <!--external css-->
-    <link href="{{asset('user/assets/css/font-awesome.css')}}" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/zabuto_calendar.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/js/gritter/css/jquery.gritter.css')}}" />
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/lineicons/style.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/font-awesome.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/themify-icons.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/web-hosting-glyphs.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/to-do.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/font-awesome.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/zabuto_calendar.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/js/gritter/css/jquery.gritter.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/lineicons/style.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/font-awesome.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/themify-icons.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/web-hosting-glyphs.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/style.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/to-do.css')}}" />
 
     <!--add big pack fonts ico-->
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-codes.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-ie7.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mypatch-codes.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/stylePrice.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/mypatch-codes.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/mypatch.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/mypatch-ie7.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/mypatch-codes.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/stylePrice.css')}}" />
     <!--end big pack fonts ico-->
 
     <!-- Custom styles for this template -->
-    <link href="{{asset('user/assets/css/style-responsive.css')}}" rel="stylesheet">
-    <link href="{{asset('user/assets/css/style.css')}}" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/styleSelect.css')}}">
-    <link rel="stylesheet" type="text/css" href="{{asset('user/assets/css/mystyle.css')}}">
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/style-responsive.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/styleSelect.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/mystyle.css')}}" />
 
 
 
@@ -67,18 +67,13 @@
 
     <!--dropdown-->
         <script type="text/javascript">
-
             $( function() {
-
                 $( '#cd-dropdown' ).dropdown();
-
             });
-
         </script>
 
     <!--  scroll  -->
         <script>
-
         function loadScroll() {
             $(".slider").slider({
                 range: "min",
@@ -177,7 +172,6 @@
         <script>
             $(document).pjax('#sidebar a, .box0 a', '.reloading', {fragment: '.reloading'});
         </script>
-
 
     </body>
 </html>
