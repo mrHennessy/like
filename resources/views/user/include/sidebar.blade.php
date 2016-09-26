@@ -18,7 +18,7 @@
                 </a>
             </li>
 
-            <li class="mt" class="nav-link">
+            <li class="mt" onclick="get_load" class="nav-link">
                 <a href="{{ route('UserIndexPage')}}">
                     <i class="icon-globe"></i>
                     <span>Главная</span>
@@ -31,8 +31,8 @@
                     <span></i>Вконтакте</span>
                 </a>
                 <ul class="sub">
-                    <li class="nav-link"><a  href="{{ route('SpendUser')}}">Включить накрутку</a></li>
-                    <li class="nav-link"><a  href="{{ route('WorkUser')}}">Заработать лайки</a></li>
+                    <li onclick="get_load" class="nav-link"><a  href="{{ route('SpendUser')}}">Включить накрутку</a></li>
+                    <li onclick="get_load" class="nav-link"><a  href="{{ route('WorkUser')}}">Заработать лайки</a></li>
                 </ul>
             </li>
 
@@ -57,13 +57,13 @@
             </li>
 
             <li class="nav-link">
-                <a href="{{ route('FreeUser')}}">
+                <a onclick="get_load" href="{{ route('FreeUser')}}">
                     <i class="icon-diamond"></i>
                     <span>Халява</span>
                 </a>
             </li>
             <li class="nav-link">
-                <a href="{{ route('UserIndexPage')}}">
+                <a onclick="get_load" href="{{ route('UserIndexPage')}}">
                     <i class="icon-diamond"></i>
                     <span>Халява</span>
                 </a>

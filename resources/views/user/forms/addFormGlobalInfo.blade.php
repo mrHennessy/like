@@ -17,7 +17,7 @@
     <div class="col-sm-8  col-sm-offset-1">
         <div class="price-slider my-mt">
             <div class="col-sm-12">
-                <div id="slider"></div>
+                <div class="slider"></div>
             </div>
         </div>
     </div>
@@ -27,7 +27,7 @@
     <div class="col-sm-8  col-sm-offset-1">
         <div class="price-slider my-mt">
             <div class="col-sm-12">
-                <div id="slider2"></div>
+                <div class="slider2"></div>
             </div>
         </div>
     </div>
@@ -50,8 +50,8 @@
             <label for="amount" class="col-sm-4 control-label"> Цена: </label>
             <span class="help-text">за 1</span>
             <div class="col-sm-8 text-center">
-                <input type="hidden" id="amount" class="form-control">
-                <p class="price lead" id="amount-label"></p>
+                <input type="hidden" id="amount" class="form-control amount">
+                <p class="price lead amount-label" id="amount-label"></p>
                 <span class="price"><img src="/user/assets/img/ico/heart-black-shape-for-valentines.png" height="16" width="16" alt=""/></span>
             </div>
         </div>
@@ -61,8 +61,8 @@
             <label for="duration" class="col-sm-4 control-label">Количество</label>
             <span class="help-text"></span>
             <div class="col-sm-8 text-center">
-                <input type="hidden" id="duration" class="form-control">
-                <p class="price lead" id="duration-label"></p>
+                <input type="hidden" id="duration" class="form-control duration">
+                <p class="price lead duration-label" id="duration-label"></p>
                 <span class="price"><img src="/user/assets/img/ico/icon.png" height="16" width="16" alt=""/></span>
             </div>
         </div>
@@ -84,8 +84,8 @@
             <label for="total" class="col-sm-4 control-label"><strong>В сумме: </strong></label>
             <span class="help-text">спишется со счёта</span>
             <div class="col-sm-8 text-center">
-                <input type="hidden" id="total" class="form-control">
-                <p class="price lead" id="total-label"></p>
+                <input type="hidden" id="total" class="form-control total">
+                <p class="price lead total-label" id="total-label"></p>
                 <span class="price"><i class="fa fa-heart"></i></span>
             </div>
         </div>
