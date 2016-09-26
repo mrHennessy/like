@@ -31,4 +31,8 @@ class ApiVK extends Controller
     public function addTaskSocial(){
         return view('user.forms.addSocial');
     }
+
+    public function addTaskSocialComments(){
+        return view('user.forms.addComment');
+    }
 }

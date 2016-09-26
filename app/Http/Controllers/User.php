@@ -21,7 +21,7 @@ class User extends Controller
     }
 
     public function work(){
-        return view('user.work');
+        return view('user.pages.vkontakte.work');
     }
 
     public function partner(){

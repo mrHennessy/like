@@ -62,6 +62,11 @@ Route::group(['prefix' => 'vkontakte'], function() {
             'uses' => 'ApiVK@addTaskSocial',
             'as' => 'AddTaskSocial'
         ]);
+
+        Route::get('add_comments', [
+            'uses' => 'ApiVK@addTaskSocialComments',
+            'as' => 'AddComments'
+        ]);
     });
 });
 
