@@ -22,11 +22,7 @@
     margin-bottom: 0px;
 }
 
-.inform-nakrutka{
-
-}
-
-.text-st .text-c{
+.text-c{
     font-size: 16px;
     text-shadow: -1px 0px 0px #3e6397;
     padding-top: 7px;
@@ -70,4 +66,34 @@ ul.sidebar-menu li a.active {
     min-height: 500px;
     background-color: #dadada;
     box-shadow: 0px 0px 8px black;
+}
+
+.btn-theme05 {
+    color: #fff;
+    background-color: #668ada;
+    border-color: #555eff;
+}
+.btn-theme05:hover,
+.btn-theme05:focus,
+.btn-theme05:active,
+.btn-theme05.active,
+.open .dropdown-toggle.btn-theme05 {
+    color: #fff;
+    background-color: #627fcc;
+    border-color: #88a9da;
+    /*box-shadow: 0px 1px 2px black;*/
+}
+
+.work-like tr, .work-like td, .work-like th{
+    text-align: center;
+    font-size: 14px;
+}
+
+.work-like .btn{
+    padding: 1px 15px;
+}
+
+.prise{
+    font-size: 20px;
+    color: #6677ff;
 }

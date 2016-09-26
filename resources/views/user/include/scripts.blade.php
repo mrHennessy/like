@@ -19,10 +19,9 @@
 <script src="{{asset('user/assets/js/jquery.geocomplete.min.js')}}"></script>
 <script src="{{asset('user/assets/js/chart-master/Chart.js')}}"></script>
 
-<script src="{{asset('user/assets/js/modernizr.custom.63321.js')}}"></script>
-<script src="{{asset('user/assets/js/jquery.dropdown.js')}}"></script>
-
 <script src="{{asset('user/assets/js/bootstrap-switch.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.tagsinput.js')}}"></script>
 <script src="{{asset('user/assets/js/form-component.js')}}"></script>
 
+<script src="{{asset('user/assets/js/modernizr.custom.63321.js')}}"></script>
+<script src="{{asset('user/assets/js/jquery.dropdown.js')}}"></script>

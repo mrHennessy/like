@@ -3,9 +3,7 @@
 @section('content')
     <!--main content start-->
     <section id="main-content" class="reloading">
-
         <section class="wrapper site-min-height">
-
             <div class="row">
                 <div class="col-sm-12 mt">
                     <!-- Nav tabs -->
