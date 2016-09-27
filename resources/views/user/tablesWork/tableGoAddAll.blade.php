@@ -9,7 +9,7 @@
                 <thead class="col-sm-12">
                 <tr>
                     <th class="col-sm-4"><i class="fa fa-file-text-o"></i> | Название</th>
-                    <th class="col-sm-1"><i class="fa fa-sort-numeric-asc"></i> | Стоимость</th>
+                    <th class="col-sm-1">Стоимость <i class="whhg-squareheart"></i></th>
                     <th class="col-sm-1 hidden-phone"><i class="fa fa-globe"></i> | Тип</th>
                     <th class="col-sm-2 hidden-phone"><i class="fa fa-users"></i> | Заказчик</th>
                     <th class="col-sm-4"><i class="fa fa-external-link"></i> | Открыть/Проверить/Пожаловаться|Удалить</th>
@@ -20,7 +20,7 @@
                     <td class="col-sm-4">
                         <a href="">Пролайкайте мою авуПролайкайте мою авуПролайкайте мою авуПролайкайте мою аву</a>
                     </td>
-                    <td class="col-sm-1"><i class="whhg-square3 prise"></td>
+                    <td class="col-sm-1"><i class="whhg-plus prise"></i> <i class="whhg-square3 prise"></i> <i class="whhg-squareheart prise"></i></td>
                     <td class="col-sm-1 hidden-phone"><span class="badge bg-info">like</span></td>
                     <td class="col-sm-2 hidden-phone"><a href="">Mark Twain</a></td>
                     <td class="col-sm-4">
@@ -31,7 +31,7 @@
                 </tr>
                 <tr>
                     <td class="col-sm-4"><a href="">Полайкайте аву</a></td>
-                    <td class="col-sm-1"><i class="whhg-square2 prise"></td>
+                    <td class="col-sm-1"><i class="whhg-calcplus prise"></i> <i class="whhg-square2 prise"></i>  <i class="whhg-squareheart prise"></i></td>
                     <td class="col-sm-1 hidden-phone"><span class="badge bg-info">like</span></td>
                     <td class="col-sm-2 hidden-phone"><a href="">Mark Twain</a></td>
                     <td class="col-sm-4">
@@ -42,7 +42,7 @@
                 </tr>
                 <tr>
                     <td class="col-sm-4"><a href="">Лайк на запись</a></td>
-                    <td class="col-sm-1"><i class="whhg-square4 prise"></td>
+                    <td class="col-sm-1"><i class="whhg-calcplus prise"></i> <i class="whhg-square4 prise"></i> <i class="whhg-squareheart prise"></i></td>
                     <td class="col-sm-1 hidden-phone"><span class="badge bg-info">like</span></td>
                     <td class="col-sm-2 hidden-phone"><a href="">Mark Twain</a></td>
                     <td class="col-sm-4">

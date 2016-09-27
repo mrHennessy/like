@@ -144,3 +144,17 @@ ul.sidebar-menu .sub-menu .sub a:focus{
 .respons li {
     width: 100%;
 }
+
+.t-block tr, .t-block td, .t-block th {
+    text-align: center;
+    font-size: 16px;
+    text-shadow: 0px 0px 1px #8bb5bf;
+}
+
+.refer-link .btn{
+    padding: 4px 12px;
+}
+
+.resetTabRef {
+    display: inline;
+}

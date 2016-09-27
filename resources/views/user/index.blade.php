@@ -182,5 +182,26 @@
         </script>
 
 
+<!--        <script>-->
+<!--                $('#btn-copy-ref-link').on('click', function(){-->
+<!---->
+<!--                    var text = $('#ref-link').val();-->
+<!---->
+<!--                    alert(text);-->
+<!---->
+<!--                });-->
+<!--        </script>-->
+
+        <script type="text/javascript">
+                $('#btn-copy-ref-link').zclip({
+                    path: "user/assets/js/ZeroClipboard.swf",
+                    copy: function(){return $('#ref-link').val()},
+                    afterCopy: function () {
+                        alert('Ваша реферальная ссылка');
+                    }
+                });
+        </script>
+
+
     </body>
 </html>

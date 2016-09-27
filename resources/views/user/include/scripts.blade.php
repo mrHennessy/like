@@ -15,6 +15,7 @@
 <script src="{{asset('user/assets/js/gritter-conf.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.geocomplete.min.js')}}"></script>
 <script src="{{asset('user/assets/js/chart-master/Chart.js')}}"></script>
+<script src="{{asset('user/assets/js/jquery.zclip.js')}}"></script>
 
 <script src="{{asset('user/assets/js/bootstrap-switch.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.tagsinput.js')}}"></script>

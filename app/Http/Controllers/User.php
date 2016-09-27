@@ -25,7 +25,7 @@ class User extends Controller
     }
 
     public function partner(){
-        return view('user.partner');
+        return view('user.referal');
     }
 
     public function feedback(){
