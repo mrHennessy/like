@@ -158,3 +158,20 @@ ul.sidebar-menu .sub-menu .sub a:focus{
 .resetTabRef {
     display: inline;
 }
+
+.info-block{
+    font-family: PoiretOneNormal, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 1px #000;
+}
+
+.avatarka img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    /*border-radius: 30%;*/
+}
+

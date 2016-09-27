@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "PoiretOneNormal";
+    src: url("/user/assets/fonts/PoiretOneNormal.eot");
+    src: url("/user/assets/fonts/PoiretOneNormal.eot?#iefix")format("embedded-opentype"),
+    url("/user/assets/fonts/PoiretOneNormal.woff") format("woff"),
+    url("/user/assets/fonts/PoiretOneNormal.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
