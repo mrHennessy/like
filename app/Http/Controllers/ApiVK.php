@@ -35,4 +35,38 @@ class ApiVK extends Controller
     public function addTaskSocialComments(){
         return view('user.forms.addComment');
     }
+
+//
+
+    public function tableAddAll(){
+        return view('user.tablesWork.tableGoAddAll');
+    }
+
+    public function tableAddLike(){
+        return view('user.tablesWork.tableGoAddLike');
+    }
+
+    public function tableAddFollow(){
+        return view('user.tablesWork.tableGoAddFollow');
+    }
+
+    public function tableAddFriend(){
+        return view('user.tablesWork.tableGoAddFriend');
+    }
+
+    public function tableAddInterview(){
+        return view('user.tablesWork.tableGoAddInterview');
+    }
+
+    public function tableAddGroup(){
+        return view('user.tablesWork.tableGoAddGroup');
+    }
+
+    public function tableAddSocial(){
+        return view('user.tablesWork.tableGoAddSocial');
+    }
+
+    public function tableAddComments(){
+        return view('user.tablesWork.tableGoAddComment');
+    }
 }

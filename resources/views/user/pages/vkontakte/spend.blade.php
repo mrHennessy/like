@@ -5,17 +5,47 @@
     <section id="main-content" class="reloading">
         <section class="wrapper site-min-height">
             <div class="row">
-                <div class="col-sm-12 mt">
+                <div class="col-sm-10 col-sm-offset-1 mt">
                     <!-- Nav tabs -->
-                    <ul class="nav nav-tabs"  id="reg">
-                        <li><a href="#addLike" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка лайков</a></li>
-                        <li><a href="#addRepost" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка репостов</a></li>
-                        <li><a href="#addFriends" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка друзей</a></li>
-                        <li><a href="#addUserGroup" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка участников группы</a></li>
-                        <li><a href="#addSocial" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка участников встречи</a></li>
-                        <li><a href="#addInterview" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка опросов</a></li>
-                        <li><a href="#addComments" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка комментарией</a></li>
-                    </ul>
+                    <div class="container-fluid">
+                        <div class="row  text-center">
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addLike" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
+                                        <br/> лайков</a></li>
+                            </div>
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addRepost" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
+                                        <br/> репостов</a></li>
+                            </div>
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addFriends" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
+                                        <br/> друзей</a></li>
+                            </div>
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addUserGroup" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
+                                        <br/> участников группы</a></li>
+                            </div>
+                        </div>
+                        <div class="row  text-center">
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addSocial" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
+                                        <br/> участников встречи</a></li>
+                            </div>
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addInterview" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
+                                        <br/> опросов</a></li>
+                            </div>
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addComments" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
+                                        <br/> комментарией</a></li>
+                            </div>
+                            <div class="col-sm-3 nav nav-tabs respons">
+                                <li><a href="#addComments" class="exp" onclick="loadScroll()" data-toggle="tab">ПУСТОЙ
+                                        <br/> контейнер</a></li>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <!-- Tab panes -->
                     <div class="tab-content">

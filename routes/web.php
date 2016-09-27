@@ -68,6 +68,48 @@ Route::group(['prefix' => 'vkontakte'], function() {
             'as' => 'AddComments'
         ]);
     });
+
+    Route::group(['prefix' => 'table'], function() {
+        Route::get('go_add_all', [
+            'uses' => 'ApiVK@tableAddAll',
+            'as' => 'TableAddAll'
+        ]);
+
+        Route::get('go_add_likes', [
+            'uses' => 'ApiVK@tableAddLike',
+            'as' => 'TableAddLike'
+        ]);
+
+        Route::get('go_add_follows', [
+            'uses' => 'ApiVK@tableAddFollow',
+            'as' => 'TableAddFollow'
+        ]);
+
+        Route::get('go_add_friends', [
+            'uses' => 'ApiVK@tableAddFriend',
+            'as' => 'TableAddFriend'
+        ]);
+
+        Route::get('go_add_interviews', [
+            'uses' => 'ApiVK@tableAddInterview',
+            'as' => 'TableAddInterview'
+        ]);
+
+        Route::get('go_add_groups', [
+            'uses' => 'ApiVK@tableAddGroup',
+            'as' => 'TableAddGroup'
+        ]);
+
+        Route::get('go_add_socials', [
+            'uses' => 'ApiVK@tableAddSocial',
+            'as' => 'TableAddSocial'
+        ]);
+
+        Route::get('go_add_comments', [
+            'uses' => 'ApiVK@tableAddComments',
+            'as' => 'TableAddComments'
+        ]);
+    });
 });
 
 Route::get('partner', [

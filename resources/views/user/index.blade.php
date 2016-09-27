@@ -168,10 +168,19 @@
             }
         </script>
 
-    <!--     pjax  -->
+        <!--     pjax  -->
+        <script>
+            function loadtask() {
+                $(document).pjax('#tabs li a', '#als', {fragment: '.table-load'});
+            }
+        </script>
+
+
+        <!--     pjax  -->
         <script>
             $(document).pjax('#sidebar a, .box0 a', '.reloading', {fragment: '.reloading'});
         </script>
+
 
     </body>
 </html>
