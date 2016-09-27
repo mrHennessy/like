@@ -175,33 +175,20 @@
             }
         </script>
 
-
         <!--     pjax  -->
         <script>
             $(document).pjax('#sidebar a, .box0 a', '.reloading', {fragment: '.reloading'});
         </script>
-
-
-<!--        <script>-->
-<!--                $('#btn-copy-ref-link').on('click', function(){-->
-<!---->
-<!--                    var text = $('#ref-link').val();-->
-<!---->
-<!--                    alert(text);-->
-<!---->
-<!--                });-->
-<!--        </script>-->
 
         <script type="text/javascript">
                 $('#btn-copy-ref-link').zclip({
                     path: "user/assets/js/ZeroClipboard.swf",
                     copy: function(){return $('#ref-link').val()},
                     afterCopy: function () {
-                        alert('Ваша реферальная ссылка');
+                        alert('Ваша реферальная ссылка скопирована');
                     }
                 });
         </script>
-
 
     </body>
 </html>

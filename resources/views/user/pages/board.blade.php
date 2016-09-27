@@ -1,4 +1,4 @@
-@extends('user.main')
+@extends('user.index')
 
 @section('content')
     <section id="main-content" class="reloading">

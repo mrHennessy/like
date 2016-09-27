@@ -9,7 +9,7 @@ use App\Http\Requests;
 class User extends Controller
 {
     public function index(){
-        return view('user.main');
+        return view('user.pages.main');
     }
 
     public function board(){
@@ -25,18 +25,18 @@ class User extends Controller
     }
 
     public function partner(){
-        return view('user.referal');
+        return view('user.pages.referal');
     }
 
     public function feedback(){
-        return view('user.feedback');
+        return view('user.pages.feedback');
     }
 
     public function store(){
-        return view('user.store');
+        return view('user.pages.store');
     }
 
     public function free(){
-        return view('user.free');
+        return view('user.pages.free');
     }
 }
