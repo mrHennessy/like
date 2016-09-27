@@ -13,7 +13,7 @@ class User extends Controller
     }
 
     public function board(){
-        return view('user.board');
+        return view('user.pages.board');
     }
 
     public function spend(){

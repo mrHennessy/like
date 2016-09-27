@@ -22,7 +22,11 @@
     margin-bottom: 0px;
 }
 
-.text-c{
+.inform-nakrutka{
+
+}
+
+.text-st .text-c{
     font-size: 16px;
     text-shadow: -1px 0px 0px #3e6397;
     padding-top: 7px;
@@ -64,97 +68,10 @@ ul.sidebar-menu li a.active {
 .work-center {
     z-index: 0;
     min-height: 500px;
-    background-color: #e7e7e7;
+    background-color: #dadada;
     box-shadow: 0px 0px 8px black;
 }
 
-.btn-theme05 {
-    color: #fff;
-    background-color: #668ada;
-    border-color: #555eff;
-}
-.btn-theme05:hover,
-.btn-theme05:focus,
-.btn-theme05:active,
-.btn-theme05.active,
-.open .dropdown-toggle.btn-theme05 {
-    color: #fff;
-    background-color: #627fcc;
-    border-color: #88a9da;
-    /*box-shadow: 0px 1px 2px black;*/
-}
-
-.work-like tr, .work-like td, .work-like th{
-    text-align: center;
-    font-size: 14px;
-}
-
-.work-like .btn{
-    padding: 1px 15px;
-    margin-bottom: 5px;
-}
-
-.prise{
-    font-size: 20px;
-    color: #6677ff;
-}
-
-ul.sidebar-menu .sub-menu .sub a.active{
-    background-color: transparent;
-}
-
-ul.sidebar-menu .sub-menu .sub a.active,
-ul.sidebar-menu .sub-menu .sub a:hover,
-ul.sidebar-menu .sub-menu .sub a:focus{
-    box-shadow: none;
-    text-decoration: underline;
-    color: #fafce1;
-}
-
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
-    color: #d5dfff;
-    text-shadow: 0px 0px 1px white;
-    background-color: #375e88;
-    font-size: 14px;
-    margin-right: 5px;
-    margin-bottom: 6px;
-}
-
-.nav-tabs > li > a {
-    color: #d5dfff;
-    text-shadow: 0px 0px 1px white;
-    background-color: #375e88;
-    font-size: 14px;
-    margin-right: 5px;
-    margin-bottom: 6px;
-}
-
-.nav-tabs > li > a:hover, .nav-tabs > li > a:focus{
-    color: #000000;
-    text-shadow: 0px 0px 1px #5b7dff;
-    background-color: #abd5ff;
-    box-shadow: -4px -5px 0px #88acd5;
-    -webkit-transition: all 0.3s ease;
-    -moz-transition: all 0.3s ease;
-    -o-transition: all 0.3s ease;
-    -ms-transition: all 0.3s ease;
-    transition: all 0.3s ease;
-}
-
-.respons li {
-    width: 100%;
-}
-
-.t-block tr, .t-block td, .t-block th {
-    text-align: center;
-    font-size: 16px;
-    text-shadow: 0px 0px 1px #8bb5bf;
-}
-
-.refer-link .btn{
-    padding: 4px 12px;
-}
-
-.resetTabRef {
-    display: inline;
+.info-block{
+    background: #fff;
 }
