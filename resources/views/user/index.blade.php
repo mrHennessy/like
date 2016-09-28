@@ -77,7 +77,7 @@
 
     <!--  scroll  -->
         <script>
-        function loadScroll() {
+        $(document).on('ready', function loadScroll() {
             $(".slider").slider({
                 range: "min",
                 animate: true,
@@ -109,7 +109,7 @@
             $("#duration-label").text(0);
 
             update();
-        }
+        });
 
         //changed. now with parameter
         function update(slider,val) {

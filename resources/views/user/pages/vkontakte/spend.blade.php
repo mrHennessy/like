@@ -9,40 +9,44 @@
                     <!-- Nav tabs -->
                     <div class="container-fluid">
                         <div class="row  text-center">
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addLike" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
-                                        <br/> лайков</a></li>
-                            </div>
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addRepost" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
-                                        <br/> репостов</a></li>
-                            </div>
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addFriends" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
-                                        <br/> друзей</a></li>
-                            </div>
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addUserGroup" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
-                                        <br/> участников группы</a></li>
-                            </div>
+                            <ul class="nav nav-tabs respons">
+                                <div class="col-sm-3 respons">
+                                    <li><a href="#addLike" class="exp" data-toggle="tab">Накрутка
+                                            <br/> лайков</a></li>
+                                </div>
+                                <div class="col-sm-3 respons">
+                                    <li><a href="#addRepost" class="exp" data-toggle="tab">Накрутка
+                                            <br/> репостов</a></li>
+                                </div>
+                                <div class="col-sm-3 respons">
+                                    <li><a href="#addFriends" class="exp" data-toggle="tab">Накрутка
+                                            <br/> друзей</a></li>
+                                </div>
+                                <div class="">
+                                    <li><a href="#addUserGroup" class="exp" data-toggle="tab">Накрутка
+                                            <br/> участников группы</a></li>
+                                </div>
+                            </ul>
                         </div>
                         <div class="row  text-center">
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addSocial" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
-                                        <br/> участников встречи</a></li>
-                            </div>
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addInterview" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
-                                        <br/> опросов</a></li>
-                            </div>
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addComments" class="exp" onclick="loadScroll()" data-toggle="tab">Накрутка
-                                        <br/> комментарией</a></li>
-                            </div>
-                            <div class="col-sm-3 nav nav-tabs respons">
-                                <li><a href="#addComments" class="exp" onclick="loadScroll()" data-toggle="tab">ПУСТОЙ
-                                        <br/> контейнер</a></li>
-                            </div>
+                            <ul class="nav nav-tabs respons">
+                                <div class="col-sm-3 respons">
+                                    <li><a href="#addSocial" class="exp" data-toggle="tab">Накрутка
+                                            <br/> участников встречи</a></li>
+                                </div>
+                                <div class="col-sm-3 respons">
+                                    <li><a href="#addInterview" class="exp" data-toggle="tab">Накрутка
+                                            <br/> опросов</a></li>
+                                </div>
+                                <div class="col-sm-3 respons">
+                                    <li><a href="#addComments" class="exp" data-toggle="tab">Накрутка
+                                            <br/> комментарией</a></li>
+                                </div>
+                                <div class="col-sm-3 respons">
+                                    <li><a href="#addComments" class="exp" data-toggle="tab">ПУСТОЙ
+                                            <br/> контейнер</a></li>
+                                </div>
+                            </ul>
                         </div>
                     </div>
 

@@ -206,5 +206,39 @@ ul.sidebar-menu .sub-menu .sub a:focus{
     margin-top: 17%;
     text-align: center;
     font-family: "PoiretOneNormal", sans-serif;
+}
 
+.block-hot {
+    padding: 10px 3px;
+    background-color: #375e88;
+    border-radius: 10px;
+    color: #ffffff;
+    text-shadow: 0px 0px 1px black;
+    box-shadow: 0px 0px 20px rgba(255, 29, 36, 0.56);
+}
+
+.block-hot h5{
+    margin-top: 15px;
+}
+
+
+.block-hot .badge{
+    position: inherit;
+}
+
+.info-sell {
+    height: 220px;
+}
+
+.vnimanie {
+    box-shadow: 0px 0px 25px red;
+}
+
+.vnimanie:hover {
+    box-shadow: 0px 0px 40px green;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
