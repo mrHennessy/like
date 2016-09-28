@@ -32,6 +32,10 @@ class User extends Controller
         return view('user.pages.feedback');
     }
 
+    public function teh(){
+        return view('user.forms.feedback.tehForm');
+    }
+
     public function store(){
         return view('user.pages.store');
     }

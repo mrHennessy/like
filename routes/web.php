@@ -69,6 +69,13 @@ Route::group(['prefix' => 'vkontakte'], function() {
         ]);
     });
 
+    Route::group(['prefix' => 'feedback'], function() {
+        Route::get('tehForm', [
+            'uses' => 'User@teh',
+            'as' => 'tehForm'
+        ]);
+    });
+
     Route::group(['prefix' => 'table'], function() {
         Route::get('go_add_all', [
             'uses' => 'ApiVK@tableAddAll',
