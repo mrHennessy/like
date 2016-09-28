@@ -136,12 +136,9 @@
         </script>
 
         <script>
-
             var Script = function () {
 
                 $(function () {
-
-
 
                     var tax_data = [
                         {"period": "<?php echo date('d')-0 . ' ' . date('m'); ?>", "licensed": 50, "sorned": 60},
@@ -191,6 +188,7 @@
                 });
 
             }();
+
         </script>
 
     <!--  kalendar  -->
@@ -236,10 +234,10 @@
             }
         </script>
 
-        <!--     pjax  -->
-        <script>
-            $(document).pjax('#sidebar a, .box0 a', '.reloading', {fragment: '.reloading'});
-        </script>
+<!--        <!--     pjax  -->-->
+<!--        <script>-->
+<!--            $(document).pjax('#sidebar a, .box0 a', '.reloading', {fragment: '.reloading'});-->
+<!--        </script>-->
 
 
 

@@ -12,7 +12,7 @@
             <hr/>
 
             <li class="nav-link">
-                <a class="active" href="{{ route('PersonalBoard')}}">
+                <a href="{{ route('PersonalBoard')}}">
                     <i class="icon-user"></i>
                     <span>Мой кабинет</span>
                 </a>

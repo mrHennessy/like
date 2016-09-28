@@ -158,3 +158,45 @@ ul.sidebar-menu .sub-menu .sub a:focus{
 .resetTabRef {
     display: inline;
 }
+
+.info-block{
+    font-family: PoiretOneNormal, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    background-color: transparent;
+    box-shadow: 0px 0px 1px #000;
+}
+
+.avatarka img{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 20px;
+    /*border-radius: 30%;*/
+}
+
+.size-sto {
+    width: 100%;
+}
+
+.height-tr {
+    height: 300px;
+}
+
+.menu {
+    background: transparent;
+}
+
+#hero-bar {
+
+}
+
+.refer-panel {
+    color: #ffffff;
+    box-shadow: 0px 0px 3px black;
+    height: 280px;
+}
+
+.refer-panel:hover {
+    box-shadow: 0px 0px 20px rgba(0, 46, 151, 0.86);
+}
