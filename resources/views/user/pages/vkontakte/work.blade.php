@@ -26,30 +26,30 @@
                                 <div class="container-fluid">
                                     <div class="row  text-center">
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddAll') }}" onclick="loadtask()" class="exp">Любая</a></li>
+                                            <li><a href="{{ route('TableAddAll') }}"  class="exp">Все</a></li>
                                         </div>
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddLike') }}" onclick="loadtask()" class="exp">Ставить лайки</a></li>
+                                            <li><a href="{{ route('TableAddLike') }}"  class="exp">Ставить лайки</a></li>
                                         </div>
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddFollow') }}" onclick="loadtask()" class="exp">Делать репосты</a></li>
+                                            <li><a href="{{ route('TableAddFollow') }}" class="exp">Делать репосты</a></li>
                                         </div>
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddFriend') }}" onclick="loadtask()" class="exp">Добавлять в друзья</a></li>
+                                            <li><a href="{{ route('TableAddFriend') }}" class="exp">Добавлять в друзья</a></li>
                                         </div>
                                     </div>
                                     <div class="row  text-center">
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddGroup') }}" onclick="loadtask()" class="exp">Вступать в группы</a></li>
+                                            <li><a href="{{ route('TableAddGroup') }}" class="exp">Вступать в группы</a></li>
                                         </div>
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddSocial') }}" onclick="loadtask()" class="exp">Участвовать во встречах</a></li>
+                                            <li><a href="{{ route('TableAddSocial') }}" class="exp">Участвовать во встречах</a></li>
                                         </div>
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddInterview') }}" onclick="loadtask()" class="exp">Участвовать в опросах</a></li>
+                                            <li><a href="{{ route('TableAddInterview') }}" class="exp">Участвовать в опросах</a></li>
                                         </div>
                                         <div class="col-sm-3 nav nav-tabs respons">
-                                            <li><a href="{{ route('TableAddComments') }}" onclick="loadtask()" class="exp">Комментировать</a></li>
+                                            <li><a href="{{ route('TableAddComments') }}"  class="exp">Комментировать</a></li>
                                         </div>
                                     </div>
                                 </div>
@@ -64,7 +64,9 @@
                                 <div class="tab-pane " id="goAddAll">
                                     <div class="row mt">
                                         <div class="col-sm-12" id="als">
-                                            asdsad
+                                                <div class="col-sm-8 col-sm-offset-2">
+                                                    <p class="all-center">Выберите тип заданий</p>
+                                                </div>
                                         </div>
                                     </div>
                                 </div>
