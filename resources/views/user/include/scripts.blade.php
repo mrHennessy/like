@@ -16,6 +16,8 @@
 <script src="{{asset('user/assets/js/chart-master/Chart.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.zclip.js')}}"></script>
 
+<script src="//vk.com/js/api/openapi.js?122" type="text/javascript"></script>
+
 <script src="{{asset('user/assets/js/bootstrap-switch.js')}}"></script>
 <script src="{{asset('user/assets/js/jquery.tagsinput.js')}}"></script>
 <script src="{{asset('user/assets/js/form-component.js')}}"></script>
@@ -27,3 +29,4 @@
 <script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
 
 <script src="{{asset('user/assets/js/common-scripts.js')}}"></script>
+<script src="{{asset('user/assets/js/sparkline-chart.js')}}"></script>

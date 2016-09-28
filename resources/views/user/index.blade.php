@@ -35,6 +35,7 @@
     <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/style-responsive.css')}}" />
     <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/styleSelect.css')}}" />
     <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/mystyle.css')}}" />
+    <link type="text/css" rel="stylesheet" href="{{asset('user/assets/css/mystyle2.css')}}" />
 
 
 
@@ -74,6 +75,8 @@
                 $( '#cd-dropdown' ).dropdown();
             });
         </script>
+
+
 
     <!--  scroll  -->
         <script>
