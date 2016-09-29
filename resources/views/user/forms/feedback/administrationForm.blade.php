@@ -1,5 +1,5 @@
 <div class="col-sm-12  text-st form-pricing">
-    <form class="form-horizontal  " role="form">
+    <form class="form-horizontal">
         <div class="col-sm-10 col-sm-offset-1">
             <div class="row">
                 <label class="col-sm-4 control-label text-c">Ваш e-mail</label>
