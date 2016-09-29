@@ -1,7 +1,3 @@
-{{--<div class="col-md-12 text-st">--}}
-    {{--<label class="name">123</label>--}}
-    {{--<input type="text" class="form-control name" />--}}
-{{--</div>--}}
 <div class="col-sm-12  text-st">
     <form class="form-horizontal form-pricing " role="form">
         <div class="col-sm-10 col-sm-offset-1">

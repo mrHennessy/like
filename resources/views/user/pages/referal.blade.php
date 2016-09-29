@@ -170,3 +170,15 @@
     </section><! --/wrapper -->
 </section><!-- /MAIN CONTENT -->
 @stop
+
+@section('scriptOnPage')
+<script type="text/javascript">
+    $('#btn-copy-ref-link').zclip({
+        path: "user/assets/js/ZeroClipboard.swf",
+        copy: function(){return $('#ref-link').val()},
+        afterCopy: function () {
+            alert('Ваша реферальная ссылка скопирована');
+        }
+    });
+</script>
+@stop

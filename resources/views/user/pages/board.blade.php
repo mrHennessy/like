@@ -42,3 +42,65 @@
 
 
 @stop
+
+@section('scriptOnPage')
+<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
+
+
+<script src="{{asset('user/assets/js/sparkline-chart.js')}}"></script>
+<script>
+    var Script = function () {
+
+        $(function () {
+
+            var tax_data = [
+                {"period": "<?php echo date('d')-0 . ' ' . date('m'); ?>", "licensed": 50, "sorned": 60},
+                {"period": "<?php echo date('d')-1 . ' ' . date('m'); ?>", "licensed": 60, "sorned": 70},
+                {"period": "<?php echo date('d')-2 . ' ' . date('m'); ?>", "licensed": 70, "sorned": 20},
+                {"period": "<?php echo date('d')-3 . ' ' . date('m'); ?>", "licensed": 70, "sorned": 20},
+                {"period": "<?php echo date('d')-4 . ' ' . date('m'); ?>", "licensed": 70, "sorned": 20},
+            ];
+            Morris.Bar({
+                element: 'hero-graph',
+                data: [
+                    {day: "<?php echo date('d') . '.' . date('m')?>", geekbench: 1000},
+                    {day: "<?php echo date('d')-1 . '.' . date('m')?>", geekbench: 900},
+                    {day: "<?php echo date('d')-2 . '.' . date('m')?>", geekbench: 800},
+                    {day: "<?php echo date('d')-3 . '.' . date('m')?>", geekbench: 700},
+                    {day: "<?php echo date('d')-4 . '.' . date('m')?>", geekbench: 600},
+                    {day: "<?php echo date('d')-5 . '.' . date('m')?>", geekbench: 500}
+                ],
+                xkey: 'day',
+                ykeys: ['geekbench'],
+                labels: ['Licensed'],
+                lineColors:['#4ECDC4']
+            });
+
+            Morris.Bar({
+                element: 'hero-bar',
+                data: [
+                    {day: "<?php echo date('d') . '.' . date('m')?>", geekbench: 1000},
+                    {day: "<?php echo date('d')-1 . '.' . date('m')?>", geekbench: 900},
+                    {day: "<?php echo date('d')-2 . '.' . date('m')?>", geekbench: 800},
+                    {day: "<?php echo date('d')-3 . '.' . date('m')?>", geekbench: 700},
+                    {day: "<?php echo date('d')-4 . '.' . date('m')?>", geekbench: 600},
+                    {day: "<?php echo date('d')-5 . '.' . date('m')?>", geekbench: 500}
+                ],
+                xkey: 'day',
+                ykeys: ['geekbench'],
+                labels: ['Geekbench'],
+                barRatio: 0.4,
+                xLabelAngle: 35,
+                hideHover: 'auto',
+                barColors: ['#ac92ec']
+            });
+
+            $('.code-example').each(function (index, el) {
+                eval($(el).text());
+            });
+        });
+
+    }();
+</script>
+@stop

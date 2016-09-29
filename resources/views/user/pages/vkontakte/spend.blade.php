@@ -9,43 +9,23 @@
                     <!-- Nav tabs -->
                     <div class="container-fluid">
                         <div class="row  text-center">
-                            <ul class="nav nav-tabs respons">
-                                <div class="col-sm-3 respons">
-                                    <li><a href="#addLike" class="exp" data-toggle="tab">Накрутка
+                            <ul class="nav nav-tabs col-sm-12">
+                                    <li class="col-sm-3"><a href="#addLike" data-toggle="tab">Накрутка
                                             <br/> лайков</a></li>
-                                </div>
-                                <div class="col-sm-3 respons">
-                                    <li><a href="#addRepost" class="exp" data-toggle="tab">Накрутка
+                                    <li class="col-sm-3"><a href="#addRepost" data-toggle="tab">Накрутка
                                             <br/> репостов</a></li>
-                                </div>
-                                <div class="col-sm-3 respons">
-                                    <li><a href="#addFriends" class="exp" data-toggle="tab">Накрутка
+                                    <li class="col-sm-3"><a href="#addFriends" data-toggle="tab">Накрутка
                                             <br/> друзей</a></li>
-                                </div>
-                                <div class="">
-                                    <li><a href="#addUserGroup" class="exp" data-toggle="tab">Накрутка
-                                            <br/> участников группы</a></li>
-                                </div>
-                            </ul>
-                        </div>
-                        <div class="row  text-center">
-                            <ul class="nav nav-tabs respons">
-                                <div class="col-sm-3 respons">
-                                    <li><a href="#addSocial" class="exp" data-toggle="tab">Накрутка
+                                    <li class="col-sm-3"><a href="#addInterview" data-toggle="tab">Накрутка
+                                        <br/> опросов</a></li>
+                                    <li class="col-sm-3"><a href="#addSocial" data-toggle="tab">Накрутка
                                             <br/> участников встречи</a></li>
-                                </div>
-                                <div class="col-sm-3 respons">
-                                    <li><a href="#addInterview" class="exp" data-toggle="tab">Накрутка
-                                            <br/> опросов</a></li>
-                                </div>
-                                <div class="col-sm-3 respons">
-                                    <li><a href="#addComments" class="exp" data-toggle="tab">Накрутка
+                                    <li class="col-sm-3"><a href="#addUserGroup" data-toggle="tab">Накрутка
+                                            <br/> участников группы</a></li>
+                                    <li class="col-sm-3"><a href="#addComments" data-toggle="tab">Накрутка
                                             <br/> комментарией</a></li>
-                                </div>
-                                <div class="col-sm-3 respons">
-                                    <li><a href="#addComments" class="exp" data-toggle="tab">ПУСТОЙ
+                                    <li class="col-sm-3"><a href="#addComments" data-toggle="tab">ПУСТОЙ
                                             <br/> контейнер</a></li>
-                                </div>
                             </ul>
                         </div>
                     </div>
@@ -53,7 +33,7 @@
 
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div class="tab-pane fade" id="addLike">
+                        <div class="tab-pane fade in active" id="addLike">
                             <div class="row mt">
                                 <div class="col-sm-10 col-sm-offset-1">
                                     @include('user.forms.addLike')
@@ -112,8 +92,66 @@
         </section><! --/wrapper -->
 
     </section><!-- /MAIN CONTENT -->
-
-
 @stop
 
+@section('scriptOnPage')
+<script>
+    $(document).ready(function loadScroll() {
+        $(".slider").slider({
+            range: "min",
+            animate: true,
+            value:2,
+            min: 2,
+            max: 20,
+            step: 1,
+            slide: function(event, ui) {
+                update(1,ui.value); //changed
+            }
+        });
+
+        $(".slider2").slider({
+            range: "min",
+            animate: true,
+            value:10,
+            min: 10,
+            max: 500,
+            step: 5,
+            slide: function(event, ui) {
+                update(2,ui.value); //changed
+            }
+        });
+
+        //Added, set initial value.
+        $("#amount").val(2);
+        $("#duration").val(10);
+        $("#amount-label").text(0);
+        $("#duration-label").text(0);
+
+        update();
+    });
+
+    //changed. now with parameter
+    function update(slider,val) {
+        //changed. Now, directly take value from ui.value. if not set (initial, will use current value.)
+        var $amount = slider == 1?val:$("#amount").val();
+        var $duration = slider == 2?val:$("#duration").val();
+
+        /* commented
+         $amount = $( "#slider" ).slider( "value" );
+         $duration = $( "#slider2" ).slider( "value" );
+         */
+
+        $total = "" + ($amount * $duration);
+        $( ".amount" ).val($amount);
+        $( ".amount-label" ).text($amount);
+        $( ".duration" ).val($duration);
+        $( ".duration-label" ).text($duration);
+        $( ".total" ).val($total);
+        $( ".total-label" ).text($total);
+
+        $('.slider a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$amount+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+        $('.slider2 a').html('<label><span class="glyphicon glyphicon-chevron-left"></span> '+$duration+' <span class="glyphicon glyphicon-chevron-right"></span></label>');
+    }
+</script>
+@stop
 

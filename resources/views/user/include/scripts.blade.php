@@ -22,11 +22,4 @@
 <script src="{{asset('user/assets/js/jquery.tagsinput.js')}}"></script>
 <script src="{{asset('user/assets/js/form-component.js')}}"></script>
 
-<script src="{{asset('user/assets/js/modernizr.custom.63321.js')}}"></script>
-<script src="{{asset('user/assets/js/jquery.dropdown.js')}}"></script>
-
-<script src="http://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-<script src="http://cdn.oesmith.co.uk/morris-0.4.3.min.js"></script>
-
 <script src="{{asset('user/assets/js/common-scripts.js')}}"></script>
-<script src="{{asset('user/assets/js/sparkline-chart.js')}}"></script>

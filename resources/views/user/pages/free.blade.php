@@ -116,3 +116,7 @@
     </section><! --/wrapper -->
 </section><!-- /MAIN CONTENT -->
 @stop
+
+@section('scriptOnPage')
+<script src="//vk.com/js/api/openapi.js?122" type="text/javascript"></script>
+@stop

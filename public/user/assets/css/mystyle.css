@@ -111,13 +111,21 @@ ul.sidebar-menu .sub-menu .sub a:focus{
     color: #fafce1;
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{
-    color: #d5dfff;
-    text-shadow: 0px 0px 1px white;
-    background-color: #375e88;
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus{
     font-size: 14px;
     margin-right: 5px;
     margin-bottom: 6px;
+    color: rgb(31, 209, 0);
+    text-shadow: 0px 0px 1px white;
+    background-color: #375e88;
+    box-shadow: -4px -5px 0px #88acd5;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .nav-tabs > li > a {
@@ -132,8 +140,8 @@ ul.sidebar-menu .sub-menu .sub a:focus{
 .nav-tabs > li > a:hover, .nav-tabs > li > a:focus{
     color: #000000;
     text-shadow: 0px 0px 1px #5b7dff;
-    background-color: #abd5ff;
-    box-shadow: -4px -5px 0px #88acd5;
+    background-color: #5999de;
+    box-shadow: -4px -5px 0px #81a1c9;
     -webkit-transition: all 0.3s ease;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -241,4 +249,11 @@ ul.sidebar-menu .sub-menu .sub a:focus{
     -o-transition: all 0.5s ease;
     -ms-transition: all 0.5s ease;
     transition: all 0.5s ease;
+}
+
+.width50 {
+    width: 50%;
+}
+.width25 {
+    width: 25%;
 }

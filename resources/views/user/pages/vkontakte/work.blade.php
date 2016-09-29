@@ -85,4 +85,22 @@
 
 @stop
 
+@section('scriptOnPage')
+<!--<script src="{{asset('user/assets/js/modernizr.custom.63321.js')}}"></script>-->
+<!--<script src="{{asset('user/assets/js/jquery.dropdown.js')}}"></script>-->
+
+<script src="{{asset('user/assets/js/jquery.pjax.js')}}"></script>
+
+<script>
+    $(document).pjax('#tabs li a', '#als', {fragment: '.table-load'});
+</script>
+
+<!--dropdown-->
+<!--<script type="text/javascript">-->
+<!--    $( function() {-->
+<!--        $( '#cd-dropdown' ).dropdown();-->
+<!--    });-->
+<!--</script>-->
+@stop
+
 
