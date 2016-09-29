@@ -17,12 +17,12 @@
                 <ul class="dropdown-menu extended tasks-bar">
                     <div class="notify-arrow notify-arrow-green"></div>
                     <li>
-                        <p class="green">You have 4 pending tasks</p>
+                        <p class="green">У вас 4 активных задания :\</p>
                     </li>
                     <li>
                         <a href="{{ route('UserIndexPage')}}">
                             <div class="task-info">
-                                <div class="desc">DashGum Admin Panel</div>
+                                <div class="desc">Накруточка 4  <span class="myBadge bg-info">Like</span></div>
                                 <div class="percent">40%</div>
                             </div>
                             <div class="progress progress-striped">
@@ -35,7 +35,7 @@
                     <li>
                         <a href="{{ route('UserIndexPage')}}">
                             <div class="task-info">
-                                <div class="desc">Database Update</div>
+                                <div class="desc">Накруточка 2 <span class="myBadge bg-info">Like</span></div>
                                 <div class="percent">60%</div>
                             </div>
                             <div class="progress progress-striped">
@@ -48,7 +48,7 @@
                     <li>
                         <a href="{{ route('UserIndexPage')}}">
                             <div class="task-info">
-                                <div class="desc">Product Development</div>
+                                <div class="desc">Накруточка 3 <span class="myBadge bg-info">Like</span></div>
                                 <div class="percent">80%</div>
                             </div>
                             <div class="progress progress-striped">
@@ -61,7 +61,7 @@
                     <li>
                         <a href="{{ route('UserIndexPage')}}">
                             <div class="task-info">
-                                <div class="desc">Payments Sent</div>
+                                <div class="desc">Накруточка 4 <span class="myBadge bg-info">Like</span></div>
                                 <div class="percent">70%</div>
                             </div>
                             <div class="progress progress-striped">
