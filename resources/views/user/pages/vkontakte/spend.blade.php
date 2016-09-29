@@ -33,7 +33,7 @@
 
                     <!-- Tab panes -->
                     <div class="tab-content">
-                        <div class="tab-pane fade in active" id="addLike">
+                        <div class="tab-pane fade in" id="addLike">
                             <div class="row mt">
                                 <div class="col-sm-10 col-sm-offset-1">
                                     @include('user.forms.addLike')

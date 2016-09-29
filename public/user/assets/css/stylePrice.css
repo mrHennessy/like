@@ -119,9 +119,10 @@ h4.great {
 }
 
 .form-pricing {
-	background: #ffffff;
+	background: transparent;
 	padding: 20px;
 	border-radius: 4px;
+    box-shadow: 0px 0px 33px black;
 }
 
 .price-form {

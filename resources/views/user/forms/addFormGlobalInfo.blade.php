@@ -33,15 +33,18 @@
     </div>
 </div>
 
-
-<!--<div class="col-sm-10">-->
-<!--    <label class="col-sm-8 control-label text-c">Задание для пользователей с хорошей репутацией-->
-<!--        <br/> (х3 стоимость заказа)</label><br/>-->
-<!--    <div class="col-sm-4 text-center">-->
-<!--        <input type="checkbox" id="verUser" checked="" title="Фильтр от ботов" data-toggle="switch" />-->
-<!--    </div>-->
-<!--    <hr/>-->
-<!--</div>-->
+<div class="panel-heading col-sm-10 col-sm-offset-1 text-center mt mb target-head">
+    <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#open-target-panel">
+            Использовать таргетинг
+        </a>
+    </h4>
+</div>
+<div id="open-target-panel" class="panel-collapse collapse col-sm-10 col-sm-offset-1">
+    <div class="panel-body">
+        @include('user.forms.targetSpend')
+    </div>
+</div>
 
 <br/>
 <div class="row">
@@ -67,17 +70,6 @@
             </div>
         </div>
     </div>
-<!--    <div class="col-sm-10 col-sm-offset-1">-->
-<!--        <div class="form-group">-->
-<!--            <label for="duration" class="col-sm-6 control-label">Duration: </label>-->
-<!--            <span class="help-text">Choose your commitment</span>-->
-<!--            <div class="col-sm-6">-->
-<!--                <input type="hidden" id="duration" class="form-control">-->
-<!--                <p class="price lead" id="duration-label"></p>-->
-<!--                <span class="price">days</span>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
 
     <div class="col-sm-10 col-sm-offset-1">
         <div class="form-group total">
