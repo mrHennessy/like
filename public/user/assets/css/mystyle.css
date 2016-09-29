@@ -258,6 +258,11 @@ ul.sidebar-menu .sub-menu .sub a:focus{
     width: 25%;
 }
 
-.target-head {
-    
+.box-shad {
+    box-shadow: 3px 0px 5px black;
+}
+
+.text16 {
+    font-size: 16px;
+
 }
