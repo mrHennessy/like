@@ -7,37 +7,73 @@
                 <div class="row mt">
                     <div class="col-sm-12">
                         <div class="row mt">
-                            <div class="col-xs-offset-4 col-xs-4 col-xs-offset-4 avatarka hidden-phone info-block">
-                                <p><img class="" src="{{asset('user/assets/img/ava.jpg')}}" alt="132"/></p>
-                                <div class="centered">
-                                    <div class="col-md-offset-1 col-md-4">
-                                        <div class="row">
-                                            <p>Имя:</p>
+                            <div class="col-sm-12 col-md-10 col-md-offset-1 hidden-phone user-block">
+                                <div class="col-sm-8">
+                                    <div class="row mt">
+                                        <div class="col-sm-offset-1 col-sm-6">
+                                            <p>Имя Фамилия</p>
                                         </div>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="row">
+                                        <div class="col-sm-4">
                                             <p>Юрец Ололошев</p>
                                         </div>
                                     </div>
+                                    <div class="row mt">
+                                        <div class="col-sm-offset-1 col-sm-6 ">
+                                            <p>Возраст</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <p>8</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt">
+                                        <div class="col-sm-offset-1 col-sm-6">
+                                            <div class="refer-link">
+                                                <p>Реферальная ссылка <button type="button" class="btn btn-theme05" id="btn-copy-ref-link"><i class="whhg-link"></i></button></p>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <div class="refer-link">
+                                                <input class="form-control" id="ref-link" type="text" value="http://refer.com/fe8Uj2" placeholder="http://refer.com/fe8Uj2" disabled/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt">
+                                        <div class="col-sm-offset-1 col-sm-6">
+                                            <p>Дата регистрации</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <p>20.09.2016</p>
+                                        </div>
+                                    </div>
+                                    <div class="row mt">
+                                        <div class="col-sm-offset-1 col-sm-6">
+                                            <p>Статус</p>
+                                        </div>
+                                        <div class="col-sm-4">
+                                            <p>Администратор</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4 centered">
+                                    <img class="avatarka" src="{{asset('user/assets/img/ava.jpg')}}" alt="132"/>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row mt">
-                    <div class="col-md-12">
-                        <div class="col-md-6">
-                                        <h4>Статистика потраченных лайков</h4>
-                                        <div class="panel-body">
-                                            <div id="hero-graph" class="graph"></div>
-                                        </div>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="col-md-12 col-sm-12">
+                            <h4>Статистика ваших заказов</h4>
+                            <div class="panel-body">
+                                <div id="hero-graph" class="graph"></div>
+                            </div>
                         </div>
-                        <div class="col-md-6">
-                                        <h4>Статистика заработанных лайков</h4>
-                                        <div class="panel-body">
-                                            <div id="hero-bar" class="graph"></div>
-                                        </div>
+                        <div class="col-md-12 col-sm-12">
+                            <h4>Статистика выполненых заданий</h4>
+                            <div class="panel-body">
+                                <div id="hero-bar" class="graph"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -107,5 +143,15 @@
         });
 
     }();
+</script>
+
+<script type="text/javascript">
+    $('#btn-copy-ref-link').zclip({
+        path: "user/assets/js/ZeroClipboard.swf",
+        copy: function(){return $('#ref-link').val()},
+        afterCopy: function () {
+            alert('Ваша реферальная ссылка скопирована');
+        }
+    });
 </script>
 @stop

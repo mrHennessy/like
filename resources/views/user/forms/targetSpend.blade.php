@@ -1,5 +1,5 @@
 <div class="row">
-    <div class="col-sm-12 text-center">
+    <div class="col-sm-12 text-center" data-toggle="buttons">
         <label class="text-c">Показывать моё задание</label> <br/>
             <input type="radio" name="sex" id="optionsRadios1" value="option1" checked>
         <label for="optionsRadios1" class="text16">Всем |</label>
