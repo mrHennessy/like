@@ -13,8 +13,8 @@
 <!--    <hr/>-->
 <!--</div>-->
 <div class="col-sm-10 col-sm-offset-1 mt">
-    <label class="col-sm-2 control-label text-c">Цена:</label>
-    <div class="col-sm-8  col-sm-offset-1">
+    <label class="col-sm-4 control-label text-c">Цена:</label>
+    <div class="col-sm-6  col-sm-offset-1">
         <div class="price-slider my-mt">
             <div class="col-sm-12">
                 <div class="slider"></div>
@@ -23,8 +23,8 @@
     </div>
 </div>
 <div class="col-sm-10 col-sm-offset-1 mt">
-    <label class="col-sm-2 control-label text-c">Количество:</label>
-    <div class="col-sm-8  col-sm-offset-1">
+    <label class="col-sm-4 control-label text-c">Количество:</label>
+    <div class="col-sm-6  col-sm-offset-1">
         <div class="price-slider my-mt">
             <div class="col-sm-12">
                 <div class="slider2"></div>
@@ -33,18 +33,21 @@
     </div>
 </div>
 
-<div class="panel-heading col-sm-10 col-sm-offset-1 text-center mt mb target-head">
+<div class="panel-heading col-sm-10 col-sm-offset-1 text-center mt target-head">
     <h4 class="panel-title">
-        <a data-toggle="collapse" data-parent="#accordion" href="#open-target-panel">
-            Использовать таргетинг
+        <a data-toggle="collapse" data-parent="#accordion" href=".open-target-panel">
+            > Использовать таргетинг <
         </a>
     </h4>
+    <hr class="box-shad"/>
 </div>
-<div id="open-target-panel" class="panel-collapse collapse col-sm-10 col-sm-offset-1">
+<div class="panel-collapse collapse open-target-panel col-sm-10 col-sm-offset-1">
     <div class="panel-body">
         @include('user.forms.targetSpend')
+        <hr class="box-shad"/>
     </div>
 </div>
+
 
 <br/>
 <div class="row">

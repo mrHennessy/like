@@ -1,20 +1,18 @@
 <div class="row">
     <div class="col-sm-12 text-center">
-        <label>
-            Показывать моё задание <br/>
+        <label class="text-c">Показывать моё задание</label> <br/>
             <input type="radio" name="sex" id="optionsRadios1" value="option1" checked>
-            Всем |
+        <label for="optionsRadios1" class="text16">Всем |</label>
             <input type="radio" name="sex" id="optionsRadios2" value="option2">
-            Парням |
+        <label for="optionsRadios2" class="text16">Парням |</label>
             <input type="radio" name="sex" id="optionsRadios3" value="option3">
-            Девушкам
-        </label>
+        <label for="optionsRadios3" class="text16">Девушкам</label>
     </div>
 </div>
 <div class="row mt">
     <div class="col-sm-12 text-center">
         <div class="col-sm-4 col-sm-offset-4">
-            <label>Возраст</label><br/>
+            <label class="text-c">Возраст</label><br/>
             <label>От</label>
                 <select name="ageMin" class="form-control">
                     <option value="0"></option>
@@ -35,7 +33,7 @@
 </div>
 <div class="row mt">
     <div class="col-sm-6 col-sm-offset-3 text-center">
-        <label>Cтрана</label>
+        <label class="text-c">Cтрана</label>
         <select class="form-control">
             <option>Неважно</option>
             <option>Украина</option>
@@ -48,8 +46,8 @@
 </div>
 <div class="row mt">
     <div class="col-sm-6 col-sm-offset-3 text-center">
-        <label>Возраст страницы</label>
-        <select class="form-control">
+        <label class="text-c">Возраст страницы</label>
+        <select class="form-control" disabled>
             <option>Неважно</option>
             <option>Не менее одного месяца</option>
             <option>Не менее трёх месяцев</option>
@@ -61,8 +59,8 @@
 </div>
 <div class="row mt">
     <div class="col-sm-6 col-sm-offset-3 text-center">
-        <label>Количество друзей и подписчиков</label>
-        <select class="form-control">
+        <label class="text-c">Количество друзей и подписчиков</label>
+        <select class="form-control" disabled>
             <option>Неважно</option>
             <option>10+</option>
             <option>30+</option>
