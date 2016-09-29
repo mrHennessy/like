@@ -2,12 +2,12 @@
 $(function() {
     $('#nav-accordion').dcAccordion({
         eventType: 'click',
-        autoClose: true,
-        saveState: true,
-        disableLink: true,
+        autoClose: false,
+        saveState: false,
+        disableLink: false,
         speed: 'slow',
         showCount: false,
-        autoExpand: true,
+        autoExpand: false,
 //        cookie: 'dcjq-accordion-1',
         classExpand: 'dcjq-current-parent'
     });

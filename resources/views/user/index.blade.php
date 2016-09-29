@@ -47,7 +47,7 @@
 
     <body>
 
-        <section id="container" >
+        <section id="container">
 
     <!--        //Подключение шапки(статика)-->
             @include('user.include.header')
@@ -63,7 +63,7 @@
 
         </section>
 
-        <!--        //Подключение скриптов-->
+    <!--        //Подключение скриптов-->
         @include('user.include.scripts')
 
         @yield('scriptOnPage')
