@@ -25,6 +25,13 @@
                 </a>
             </li>
 
+            <li class="nav-link">
+                <a href="{{ route('StoreUser')}}">
+                    <i class="icon-shopping-bag"></i>
+                    <span>Магазин</span>
+                </a>
+            </li>
+
             <li class="sub-menu">
                 <a href="javascript:;" >
                     <i class="icon-vkontakte"></i>
@@ -37,35 +44,23 @@
             </li>
 
             <li class="nav-link">
+                <a href="{{ route('newsUser')}}">
+                    <i class="icon-diamond"></i>
+                    <span>Новости</span>
+                </a>
+            </li>
+
+            <li class="nav-link">
                 <a href="{{ route('PartnerUser')}}">
                     <i class="icon-users"></i>
                     <span>Партнёрская программа</span>
                 </a>
             </li>
+
             <li class="nav-link">
                 <a href="{{ route('FeedbackUser')}}">
                     <i class="icon-reply"></i>
                     <span>Обратная связь</span>
-                </a>
-            </li>
-
-            <li class="nav-link">
-                <a href="{{ route('StoreUser')}}">
-                    <i class="icon-shopping-bag"></i>
-                    <span>Магазин</span>
-                </a>
-            </li>
-
-            <li class="nav-link">
-                <a href="{{ route('FreeUser')}}">
-                    <i class="icon-diamond"></i>
-                    <span>Халява</span>
-                </a>
-            </li>
-            <li class="nav-link">
-                <a href="{{ route('UserIndexPage')}}">
-                    <i class="icon-diamond"></i>
-                    <span>Халява</span>
                 </a>
             </li>
         </ul>

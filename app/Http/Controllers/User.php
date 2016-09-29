@@ -40,7 +40,7 @@ class User extends Controller
         return view('user.pages.store');
     }
 
-    public function free(){
-        return view('user.pages.free');
+    public function news(){
+        return view('user.pages.news');
     }
 }

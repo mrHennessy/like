@@ -135,8 +135,8 @@ Route::get('store', [
 ]);
 
 Route::get('free', [
-    'uses' => 'User@free',
-    'as' => 'FreeUser'
+    'uses' => 'User@news',
+    'as' => 'newsUser'
 ]);
 
 
