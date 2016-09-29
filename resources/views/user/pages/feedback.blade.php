@@ -13,7 +13,7 @@
             </div>
             <div class="row mt">
                 <div class="col-md-offset-1 col-md-10 col-md offset-1">
-                    <div class="col-sm-12 work-center tab-content">
+                    <div class="col-sm-12 tab-content">
                         <div class="tab-pane fade in active">
                                 <div class="col-sm-8 mt col-sm-offset-2">
                                     <p class="all-center">Выберите отдел</p>
@@ -23,7 +23,7 @@
                             @include('user/forms/feedback/tehForm')
                         </div>
                         <div class="tab-pane fade" id="admin">
-                            123
+                            @include('user/forms/feedback/administrationForm')
                         </div>
                     </div>
                 </div>
